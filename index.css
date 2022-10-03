@@ -3,7 +3,7 @@
     margin: 0%;
 }
 body{
-    background-image: url("/images/pattern-background-desktop.jpg");
+    background-image: url("images/pattern-background-desktop.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
