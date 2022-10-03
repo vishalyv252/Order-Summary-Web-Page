@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("../images/pattern-background-desktop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.image{
+    height: 170px;
+    width: 330px;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+    background-color: white;
+    width: 330px;
+    border-radius: 10px;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.bold-text{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight:bolder;
+}
+
+.normal-text{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 300;
+}
+
+.cancel-it{
+    display: block;
+}
+
+.music-icon{
+    height: 40px;
+    width: 40px;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.pay-it{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+}
+.cancel-it{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.cancel-it:hover{
+    background-color: darkblue;
+    color: white;
+}
+.item{
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.music-icon{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.item-text-1{
+    padding: 5px;
+    margin: 5px;
+}
+.item-text-2{
+    font-weight: 300;
+    color: darkblue;
+    padding: 10px;
+    margin: 10px;
+}
